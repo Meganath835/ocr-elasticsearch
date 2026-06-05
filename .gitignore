@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Uploaded files (runtime data — too large and user-specific)
+uploads/
+
+# MiniSearch persistent index (runtime database, regenerated from uploads)
+search-index.json
+
+# Tesseract language data (large binary, downloaded automatically at runtime)
+*.traineddata
+
+# Secret config
+.env
+.env.local
+.env*.local
+
+# Frontend production build (generated, not source)
+client/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db

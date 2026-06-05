@@ -1,0 +1,3 @@
+# Docker is no longer required.
+# Search is handled by MiniSearch (runs inside Node.js — no external service needed).
+# This file is kept for reference only.
